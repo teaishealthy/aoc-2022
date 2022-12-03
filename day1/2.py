@@ -1,0 +1,1 @@
+print(sum(sorted(sum(map(int, c.split())) for c in open("input.txt").read().split("\n\n"))[-3:]))

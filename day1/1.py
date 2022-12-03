@@ -1,0 +1,1 @@
+print(max(sum(map(int, cal.split("\n")))for cal in open("input.txt").read().strip().split("\n\n")))

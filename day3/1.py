@@ -1,0 +1,1 @@
+print(sum((((D:=lambda l:l-[96,38][l<91]),(B:=len(A)//2),(E:=A[:B]),(F:=A[B:].strip()),D(ord((set(E)&set(F)).pop())))[4]for A in open('input.txt'))))
